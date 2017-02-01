@@ -8,16 +8,16 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=stunnel
-PKG_VERSION:=5.14
+PKG_VERSION:=5.37
 PKG_RELEASE:=1
 
 PKG_LICENSE:=GPL-2.0+
 PKG_MAINTAINER:=Michael Haas <haas@computerlinguist.org>
 PKG_LICENSE_FILES:=COPYING COPYRIGHT.GPL
 
-PKG_SOURCE_URL:=http://stunnel.cybermirror.org/archive/5.x/
+PKG_SOURCE_URL:=ftp://ftp.stunnel.org/stunnel/archive/5.x/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_MD5SUM:=e716501960dc6856d80f92547298f724
+PKG_MD5SUM:=96de707ac49db271cfaca35c36a44cbf
 
 PKG_FIXUP:=autoreconf
 PKG_INSTALL:=1
